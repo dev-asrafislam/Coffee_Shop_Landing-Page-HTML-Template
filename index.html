@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikkee - Coffee Landing Page HTML Template</title>
+    <link rel="icon" type="image/x-icon" href="./img/icons/favicon.ico">
+    <link rel="stylesheet" href="css/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/slick/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/selectric.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Header Nav -->
+            <div class="header__nav">
+                <a href="#" class="mobile-menu__btn">
+                    <img  src="./img/icons/mobile-menu.svg" alt="">
+                </a>
+                <ul class="header__menu">
+                    <li class="header__item">
+                        <a href="#about">About us</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#we-offer">We offer</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#why-us">Why us</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#get-your-chance">Get your chance</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#testimonials">Testimonials</a>
+                    </li>
+                </ul>
+                <!-- Mobile Menu -->
+                <div id="mobile-menu" class="mobile-menu">
+                    <div class="mobile-menu__wrapper">
+                        <a class="mobile-menu__cross" href="#">
+                            <img src="./img/icons/cross.svg" alt="">
+                        </a>
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item">
+                                <a href="#about">About us</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#we-offer">We offer</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#why-us">Why us</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#get-your-chance">Get your chance</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#testimonials">Testimonials</a>
+                            </li>
+                        </ul>
+                        <ul class="mobile-menu__social">
+                            <li class="mobile-menu__social-item">
+                                <a href="#about">fb</a>
+                            </li>
+                            <li class="mobile-menu__social-item">
+                                <a href="#we-offer">tw</a>
+                            </li>
+                            <li class="mobile-menu__social-item">
+                                <a href="#why-us">in</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Header Info -->
+                <div class="header__info">
+                    <ul class="header__social">
+                        <li class="header__social-item">
+                            <a href="#">fb</a>
+                        </li>
+                        <li class="header__social-item">
+                            <a href="#">Tw</a>
+                        </li>
+                        <li class="header__social-item">
+                            <a href="#">In</a>
+                        </li>
+                    </ul>
+                    <a class="header__phone" href="tel:+17426584122">+1 742 65 84 122</a>
+                    <button class="header__button"> Order now</button>
+                </div>
+            </div>
+            <!-- Main Info -->
+            <div class="header__main-info">
+                <img class="header__logo" src="./img/logo.svg" alt="">
+                <h1 class="header__desc"> Duis aute irure dolor in reprehenderit in voluptate</h1>
+            </div>
+            <span class="header__scroll">Scroll down</span>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <!-- Container -->
+        <div class="about-container">
+            <div class="about__wrapper">
+                <a data-fancybox="gallery" class="about__video" href="https://www.youtube.com/watch?v=Z7e8tmcSrxg">
+                    <img class="about__img" src="https://via.placeholder.com/945x797" alt="">
+                </a>
+                <div class="about__info">
+                    <h2 class="about__title">
+                        Choose Fresh beans - taste a great coffee
+                    </h2>
+                    <p class="about__text">
+                        Sed ut perspiciatis, unde omnis iste natus error 
+                        sit voluptatem accusantium doloremque laudantium, totam rem aperiam 
+                        eaque ipsa, quae ab illo inventore veritatis et quasi architecto beata.
+                    </p>
+                    <div class="about__additional-wrapper">
+                        <div class="about__addition">
+                            <div class="about__addition-part">
+                                <div class="about__addition-title">Download</div>
+                                <a class="about__addition-desc" href="./img/Pricelist.zip">Pricelist</a>
+                            </div>
+                            <div class="about__addition-part">
+                                <div class="about__addition-title">call us</div>
+                                <a class="about__addition-desc" href="tel:+17426584122">+1 742 65 84 122</a>
+                                <!-- <div ></div> -->
+                            </div>
+                        </div>
+                        <a class="about__btn" href="#">Order now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="about__coffee-decor" src="https://via.placeholder.com/213x205" alt="">
+    </section>
+
+    <!-- Products -->
+    <section id="we-offer" class="products">
+        <div class="products__container">
+            <div class="products__info">
+                <h2 class="products__title">We offer you the best we have</h2>
+                <p class="products__desc">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+            </div>
+            <div class="products__slider">
+                <div class="products__item">
+                    <a class="products__link" href="#">
+                        <img class="products__img" src="https://via.placeholder.com/340x234" alt="">
+                    </a>
+                    <h3 class="products__heading">Arabica with irish cream</h3>
+                    <div class="products__additional">
+                        <div class="products__price">$ 179<small>.99</small></div>
+                        <div class="counter">
+                            <button class="btn-minus">-</button>
+                            <input class="value" type="text" value="2000" size="5" />
+                            <button class="btn-plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a class="products__link" href="#">
+                        <img class="products__img" src="https://via.placeholder.com/340x234" alt="">
+                    </a>
+                    <h3 class="products__heading">Arabica with irish cream</h3>
+                    <div class="products__additional">
+                        <div class="products__price">$ 179<small>.99</small></div>
+                        <div class="counter">
+                            <button class="btn-minus">-</button>
+                            <input class="value" type="text" value="1" size="5" />
+                            <button class="btn-plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a class="products__link" href="#">
+                        <img class="products__img" src="https://via.placeholder.com/340x234" alt="">
+                    </a>
+                    <h3 class="products__heading">Arabica with irish cream</h3>
+                    <div class="products__additional">
+                        <div class="products__price">$ 179<small>.99</small></div>
+                        <div class="counter">
+                            <button class="btn-minus">-</button>
+                            <input class="value" type="text" value="1" size="5" />
+                            <button class="btn-plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a class="products__link" href="#">
+                        <img class="products__img" src="https://via.placeholder.com/340x234" alt="">
+                    </a>
+                    <h3 class="products__heading">Arabica with irish cream</h3>
+                    <div class="products__additional">
+                        <div class="products__price">$ 179<small>.99</small></div>
+                        <div class="counter">
+                            <button class="btn-minus">-</button>
+                            <input class="value" type="text" value="1" size="5" />
+                            <button class="btn-plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a class="products__link" href="#">
+                        <img class="products__img" src="https://via.placeholder.com/340x234" alt="">
+                    </a>
+                    <h3 class="products__heading">Arabica with irish cream</h3>
+                    <div class="products__additional">
+                        <div class="products__price">$ 179<small>.99</small></div>
+                        <div class="counter">
+                            <button class="btn-minus">-</button>
+                            <input class="value" type="text" value="2000" size="5" />
+                            <button class="btn-plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a class="products__link" href="#">
+                        <img class="products__img" src="https://via.placeholder.com/340x234" alt="">
+                    </a>
+                    <h3 class="products__heading">Arabica with irish cream</h3>
+                    <div class="products__additional">
+                        <div class="products__price">$ 179<small>.99</small></div>
+                        <div class="counter">
+                            <button class="btn-minus">-</button>
+                            <input class="value" type="text" value="1" size="5" />
+                            <button class="btn-plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a class="products__link" href="#">
+                        <img class="products__img" src="https://via.placeholder.com/340x234" alt="">
+                    </a>
+                    <h3 class="products__heading">Arabica with irish cream</h3>
+                    <div class="products__additional">
+                        <div class="products__price">$ 179<small>.99</small></div>
+                        <div class="counter">
+                            <button class="btn-minus">-</button>
+                            <input class="value" type="text" value="1" size="5" />
+                            <button class="btn-plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a class="products__link" href="#">
+                        <img class="products__img" src="https://via.placeholder.com/340x234" alt="">
+                    </a>
+                    <h3 class="products__heading">Arabica with irish cream</h3>
+                    <div class="products__additional">
+                        <div class="products__price">$ 179<small>.99</small></div>
+                        <div class="counter">
+                            <button class="btn-minus">-</button>
+                            <input class="value" type="text" value="1" size="5" />
+                            <button class="btn-plus">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section id="why-us" class="why-us">
+        <div class="why-us-container">
+            <div class="why-us__wrapper">
+                <img class="why-us__img" src="https://via.placeholder.com/531x659" alt="">
+                <div class="why-us__info">
+                <h2 class="why-us__title">Why choose our coffee</h2>
+                <p class="why-us__desc">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur m</p>
+                <ul class="why-us__list">
+                    <li class="why-us__item">
+                        <img class="why-us__icon" src="./img/icons/icon-1.svg" alt="">
+                        <div class="why-us__item-desc">
+                            <h3 class="why-us__heading">supreme beans</h3>
+                            <p class="why-us__text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accustium doloremque </p>
+                        </div>
+                    </li>
+                    <li class="why-us__item">
+                        <img class="why-us__icon" src="./img/icons/icon-3.svg" alt="">
+                        <div class="why-us__item-desc">
+                            <h3 class="why-us__heading">Without impurities</h3>
+                            <p class="why-us__text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accustium doloremque </p>
+                        </div>
+                    </li>
+                    <li class="why-us__item">
+                        <img class="why-us__icon" src="./img/icons/icon-2.svg" alt="">
+                        <div class="why-us__item-desc">
+                            <h3 class="why-us__heading">high quality</h3>
+                            <p class="why-us__text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accustium doloremque </p>
+                        </div>
+                    </li>
+                    <li class="why-us__item">
+                        <img class="why-us__icon" src="./img/icons/icon-4.svg" alt="">
+                        <div class="why-us__item-desc">
+                            <h3 class="why-us__heading">professional roasting</h3>
+                            <p class="why-us__text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accustium doloremque </p>
+                        </div>
+                    </li>
+                    <li class="why-us__item">
+                        <img class="why-us__icon" src="./img/icons/icon-5.svg" alt="">
+                        <div class="why-us__item-desc">
+                            <h3 class="why-us__heading">extraordinary taste</h3>
+                            <p class="why-us__text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accustium doloremque </p>
+                        </div>
+                    </li>
+                    <li class="why-us__item">
+                        <img class="why-us__icon" src="./img/icons/icon-6.svg" alt="">
+                        <div class="why-us__item-desc">
+                            <h3 class="why-us__heading">nice prices</h3>
+                            <p class="why-us__text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accustium doloremque </p>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Action -->
+    <section id="get-your-chance" class="action">
+        <div class="action-container">
+            <div class="action__wrapper">
+                <h2 class="action__title">Get your chance to have an amazing morning</h2>
+                <p class="action__desc">
+                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
+                    unde omnis iste natus error sit voluptatem 
+                </p>
+                <div class="action__counter">
+                    <div class="action__days">
+                        <span class="action__date" id="d"></span>
+                        <span class="action__date-1">days</span>
+                    </div>
+                    <div class="action__hours">
+                        <span class="action__date" id="h"></span>
+                        <span class="action__date-1">hours</span>
+                    </div>
+                    <div class="action__minutes">
+                        <span class="action__date action__date-modify" id="m"></span>
+                        <span class="action__date-1">min</span>
+                    </div>
+                    <div class="action__sec">
+                        <span class="action__date action__date-modify" id="s"></span>
+                        <span class="action__date-1">sec</span>
+                    </div>
+                </div>
+                <form class="action__form">
+                    <div class="action__input-wrapper">
+                        <input class="action__input" placeholder="Name *" type="text">
+                        <input class="action__input" placeholder="Phone *" type="text">
+                    </div>
+                    <textarea class="action__textarea" placeholder="Comment" cols="30" rows="10"></textarea>
+                </form>
+                <a class="action__btn" href="#">Order now</a>
+            </div>
+        </div>
+        <img class="action__coffee-img" src="https://via.placeholder.com/879x699" alt="">
+        <img class="action__coffee-decor" src="https://via.placeholder.com/260x194" alt="">
+    </section>
+
+    <!-- Testiomonials -->
+    <section id="testimonials" class="testiomonials">
+        <ul class="testiomonials__slider">
+            <li class="testimonials__item">
+                <h2 class="testiomonials__title">They tasted our passion</h2>
+                <p class="testiomonials__text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa laboris excepteur ad. Duis officia ullamco sunt nisi velit culpa excepteur amet. Incididunt sunt velit fugiat exercitation sit incididunt anim occaecat exercitation ut quis.</p>
+                <p class="testiomonials__name">Kristin Watson</p>
+            </li>
+            <li class="testimonials__item">
+                <h2 class="testiomonials__title">They tasted our passion</h2>
+                <p class="testiomonials__text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa laboris excepteur ad. Duis officia ullamco sunt nisi velit culpa excepteur amet. Incididunt sunt velit fugiat exercitation sit incididunt anim occaecat exercitation ut quis.</p>
+                <p class="testiomonials__name">Kristin Watson</p>
+            </li>
+            <li class="testimonials__item">
+                <h2 class="testiomonials__title">They tasted our passion</h2>
+                <p class="testiomonials__text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa laboris excepteur ad. Duis officia ullamco sunt nisi velit culpa excepteur amet. Incididunt sunt velit fugiat exercitation sit incididunt anim occaecat exercitation ut quis.</p>
+                <p class="testiomonials__name">Kristin Watson</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Pop Up -->
+    <div class="pop-up">
+        <div class="pop-up__logo-wrapper">
+            <img class="pop-up__logo" src="./img/footer-logo.svg" alt="">
+            <a class="pop-up__cross" href="#">
+                <img src="./img/icons/cross.svg" alt="">
+            </a>
+        </div>
+        <h3 class="pop-up__title">Make your order</h3>
+        <p class="pop-up__text">
+            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
+            unde omnis iste natus error sit voluptatem 
+        </p>
+        <form class="pop-up__form">
+            <div class="pop-up__select">
+                <select class="pop-up__select-wrapper">
+                    <option value="">Arabica with irish cream</option>
+                    <option value="">Robusta with chocolate</option>
+                    <option value="">Robusta with Vanilla</option>
+                    <option value="">Liberica with caramel</option>
+                </select>
+                <div class="counter">
+                    <button class="btn-minus">-</button>
+                    <input class="input-counter" type="text" value="1" size="5" />
+                    <button class="btn-plus">+</button>
+                </div>
+                <span class="pop-up__price">149<small>.99</small></span>
+            </div>
+            <div class="pop-up__phone-and-name">
+                <input placeholder="Name *" class="pop-up__name" type="text">
+                <input placeholder="Phone *" class="pop-up__phone" type="text">
+            </div>
+            <textarea class="pop-up__textarea" placeholder="Comment" cols="30" rows="10"></textarea>
+            <div class="pop-up__btn-wrapper">
+                <button class="pop-up__btn" type="submit">confirm order</button>
+                <div class="pop-up__conditions">
+                    <label class="pop-up__label">
+                        <input class="pop-up__check-box" type="checkbox">
+                        <span class="pop-up__check-style"></span>
+                        <span class="pop-up__accept">I accept  all Terms and Conditions</span>
+                    </label>
+                </div>
+            </div>
+        </form>
+        <div class="pop-up__additional">
+            <!-- Adress -->
+            <div class="pop-up__address">
+                <h4 class="pop-up__heading">Address</h4>
+                <p class="pop-up__desc">27 Division St, New <br> York, NY 10002, USA</p>
+            </div>
+            <!-- Contact Us -->
+            <div class="pop-up__contact-us">
+                <h4 class="pop-up__heading">contact us</h4>
+                <p class="pop-up__desc">+1 742 65 84 122 <br> info@sitename.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer__nav">
+                <!-- About Us -->
+                <div class="footer__about-us">
+                    <img class="footer__logo" src="./img/footer-logo.svg" alt="">
+                    <div class="footer__info">
+                        <h3 class="footer__about-heading">About us</h3>
+                        <p class="footer__about-text">Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa laboris excepteur ad.</p>
+                    </div>
+                </div>
+                <!-- Adress -->
+                <div class="footer__address">
+                    <h4 class="footer__heading">Address</h4>
+                    <p class="footer__desc">27 Division St, New <br> York, NY 10002, USA</p>
+                </div>
+                <!-- Contact Us -->
+                <div class="footer__contact-us">
+                    <h4 class="footer__heading">contact us</h4>
+                    <a class="footer__desc" href="tel:+17426584122">+1 742 65 84 122<br></a>
+                    <a class="footer__desc" href="mailto:info@sitename.com">info@sitename.com</a>
+                </div>
+            </div>
+        </div>
+        <a class="footer__up" href="#"><img src="./img/icons/UP.svg" alt=""></a>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="footer-container">
+            <p class="copyright__text">© All rights reserved. Mikkee 2020.</p>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="css/slick/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.selectric.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

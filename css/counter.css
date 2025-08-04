@@ -1,0 +1,13 @@
+btn-minus {
+  padding: 15px;
+  margin: -15px;
+  cursor: pointer;
+  outline: none;
+}
+
+btn-plus {
+  padding: 15px;
+  margin: -15px;
+  cursor: pointer;
+  outline: none;
+}
